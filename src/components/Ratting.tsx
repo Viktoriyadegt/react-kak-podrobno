@@ -1,15 +1,21 @@
 import React from 'react';
 
-const Ratting = () => {
+export const Ratting = () => {
     return (
         <div>
-            <div>star</div>
-            <div>star</div>
-            <div>star</div>
-            <div>star</div>
-            <div>star</div>
+            <Star/>
+            <Star/>
+            <Star/>
+            <Star/>
+            <Star/>
         </div>
     );
 };
 
-export default Ratting;
+export const Star = () => {
+    return (
+        <>
+            <div>star</div>
+        </>
+    )
+}

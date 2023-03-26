@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import Ratting from "./components/Ratting";
-import Accordion from "./components/Accordion";
+import {Ratting} from "./components/Ratting";
+import {Accordion} from "./components/Accordion";
+
 
 function App() {
   return (

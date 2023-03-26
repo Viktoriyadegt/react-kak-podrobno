@@ -1,17 +1,28 @@
 import React from 'react';
 
-const Accordion = () => {
+export const Accordion = () => {
     return (
         <div>
-            <h3>Menu</h3>
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-
+            <AccordionTitle/>
+            <AccordionBody/>
         </div>
     );
 };
 
-export default Accordion;
+export const AccordionTitle = () => {
+    return (
+            <h3>Menu</h3>
+    )
+}
+
+export const AccordionBody = () => {
+    return (
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    )
+}
+
+
